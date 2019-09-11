@@ -1,0 +1,228 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.container{
+  margin-left: 42px;
+    margin-right: 100px;
+}
+.header-section{
+  height: 530px;
+  background: url(https://i1.wp.com/9to5mac.com/wp-content/uploads/sites/6/2014/06/altittude.png?resize=2000%2C0&quality=82&strip=all) 100% no-repeat;
+  width: 100%;
+}
+.headings h1{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 9rem;
+    font-size: 58px;
+    line-height: 1rem;
+    font-weight: 500;
+}
+.headings span{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    padding-top: 2rem;
+    font-size: 33px;
+    font-weight: 200;
+    line-height: 2.5rem;
+}
+.headings p{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 2.5rem;
+}
+.far {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 2.5rem;
+}
+.promo-images img {
+    width: 357px;
+}
+.promo-images {
+    margin-left: 41px;
+    display: block;
+    z-index: 1;
+    border: 1px solid white;
+}
+.wrapper-left{
+    float: left;
+    clear: both;
+    width: 49%;
+    text-align: center;
+    font-size: 12px;
+}
+footer .wrappers {
+    width: 1100px;
+    margin: 0 auto;
+}
+.wrapper-right{
+    list-style-type: none;
+
+}
+.wrapper-right li {
+    float: left;
+    font-size: 11px;
+    padding-left: 6px;
+}
+.wrapper-right li a{
+    text-decoration: none;
+}
+.wrapper-right li a:hover{
+    text-decoration:underline;
+}
+.wrapper-right{
+    float: right;
+    width: 47%;
+   
+}
+.pipe {
+    border-left: 1px solid #ccc;
+    margin-left: .6em;
+    display: inline-block;
+}
+.lft{
+    border-right: 1px solid #ccc;
+}
+.copyright ul{
+    list-style-type: none;
+    margin: 12px;
+    padding: 0;
+    
+}
+.copyright ul li{
+    float: left;
+    font-size: 11px;
+}
+.copyright ul li a{
+    display: inline-block;
+    border: none;
+}
+.copyright {
+    width: 42%;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+.copyright p{
+    font-size: 12px;
+}
+li.lft {
+    padding-right: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.flex-container {  
+    display: flex;  
+    
+  }
+  
+  ul{
+      list-style-type: none;
+      display: flex;
+  }
+  .header-nav {
+    width: 980px;
+    height: 35px;
+    background: linear-gradient(
+      to bottom,
+      rgb(134, 134, 134) 5%,
+      rgb(128, 128, 128) 50%,
+      rgb(107, 107, 107) 51%,
+      rgb(99, 99, 99) 8%,
+      rgb(121, 121, 121) 94%
+    );
+    position: absolute;
+    font-size: 14px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border: 1px solid rgb(109, 109, 109);
+  }
+  
+  .header-nav__menu {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -30px;
+  }
+  
+  .header-nav input {
+    border-radius: 9px;
+    border: none;
+  }
+  
+  .h-nav-item {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-right: 1px solid rgba(75, 75, 75, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.753),
+      1px 1px 1px rgba(66, 66, 66, 0.651);
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+  
+  .h-nav-item span {
+    position: relative;
+    top: 6px;
+  }
+  
+  .h-nav-item:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .h-nav-item:last-of-type {
+    border-right: none;
+    flex-grow: 1;
+    padding-left: 20px;
+  }
+  
+  .h-nav-item input {
+    width: 100px;
+    height: 22px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    box-shadow: inset 0px 1px 1px rgba(70, 70, 70, 0.8),
+      inset 0 -1px 1px rgba(204, 204, 204, 0.6);
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .h-nav-item input:focus {
+    background: white;
+    width: 200px;
+    outline: none;
+    border: 1px solid rgba(75, 75, 75, 0.8);
+  }
+  
+  .h-nav-item .apple {
+    position: relative;
+    top: 5px;
+  }
+  .svg-search {
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    left: 22px;
+    top: 10px;
+  }
