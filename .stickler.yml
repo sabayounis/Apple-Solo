@@ -1,4 +1,6 @@
 linters:
+  stylelint:
+    config: 'stylelint.config.js'
   csslint: {  }
 files:
   ignore:
